@@ -6,13 +6,13 @@ function converter() {
 
     switch (moeda) {
         case 'eur':
-            taxaConversao = 6.53; // Taxa de conversão de Euro para Real
+            taxaConversao = 5.84; // Taxa de conversão de Euro para Real
             break;
         case 'usd':
-            taxaConversao = 5.80; // Taxa de conversão de Dólar para Real
+            taxaConversao = 5.44; // Taxa de conversão de Dólar para Real
             break;
         case 'clp':
-            taxaConversao = 0.0076; // Taxa de conversão de Peso Chileno para Real
+            taxaConversao = 0.0058; // Taxa de conversão de Peso Chileno para Real
             break;
         default:
             resultadoElement.innerText = "Selecione uma moeda válida.";
